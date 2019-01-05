@@ -16,5 +16,17 @@ phases:
       - ls
 artifacts:
   files:
-    - build*/**
+    - Dockerfile
+    - LICENSE
+    - README.md
+    - appspec.yml
+    - build
+    - buildspec.yml
+    - docker-compose.yml
+    - node_modules
+    - package-lock.json
+    - package.json
+    - public
+    - src
+    - yarn.lock
   discard-paths: yes
